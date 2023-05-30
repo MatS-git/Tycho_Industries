@@ -54,7 +54,7 @@ We specialize in turning your ideas into reality with our cutting-edge technolog
 enable = true
 title = 'O Nás'
 body = '''
-Specializujeme se na přeměnu Vašich nápadu v realitu. Našimi zkušenostmi Vám pomůžeme akcelerovat vývoj Vašeho produktu a dosáhnout Vaší vize.
+Specializujeme se na přeměnu Vašich nápadu v realitu. Naše zkušenosti pomohou akcelerovat vývoj Vašeho produktu a dosáhnout Vaší vize.
 '''
 
 [[params.one.icon]]
@@ -89,12 +89,12 @@ body = '2D and 3D CAD. Simulations. Rendering. Reserve Engineering.'
 [[languages.en.params.two.section]]
 img = "img/Obrabeni2.jpg"
 title = 'MACHINING'
-body = 'CNC Turning, Milling. Drilling. Laser Cutting.'
+body = 'CNC Turning. Milling. Drilling. Laser Cutting.'
 
 [[languages.en.params.two.section]]
 img = "img/Grafika.jpg"
 title = 'GRAPHIC DESIGN'
-body = 'Product Design. Graphic Deisgn. Textile Printing, Promotional Items.'
+body = 'Product Design. Graphic Deisgn. Textile Printing. Promotional Items.'
 
 [languages.cs.params.two]
 enable = true
@@ -103,7 +103,7 @@ enable = true
 img = "img/3D Printing.jpg"
 title = '3D TISK'
 body_is_markdown = true
-body = 'Technologie FDM, SLA. <br /> Tisk materiálů PET, ABS, PLA, Nylon, a další!'
+body = 'Technologie FDM, SLA. Tisk materiálů PET, ABS, PLA, Nylon a další!'
 
 [[languages.cs.params.two.section]]
 img = "img/Konstrukcni Prace.jpg"
