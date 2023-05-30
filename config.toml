@@ -118,7 +118,7 @@ body = 'CNC Soustružení. Frézování. Vrtání. Řezání Laserem.'
 [[languages.cs.params.two.section]]
 img = "img/Grafika.jpg"
 title = 'GRAFIKA'
-body = 'Grafické práce. Potisk textilu, výroba reklamních předmětů.'
+body = 'Grafické práce. Potisk textilu. Výroba reklamních předmětů.'
 
 [params.three]
 enable = false
