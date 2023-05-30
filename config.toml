@@ -1,0 +1,215 @@
+baseURL = "/"
+title = "TYCHO INDUSTRIES"
+languageCode = "cs"
+defaultContentLanguage = "cs"
+paginate = "7"
+theme = "spectral"
+
+[params]
+fancyTitle = "TYCHO INDUSTRIES" # title for frontpage, may include image
+copyright = "TYCHO INDUSTRIES s.r.o."
+startbuttonText = "KONTAKTUJTE NÁS"
+startbuttonLink = "#contact"
+body_is_markdown = true
+#custom_css = "foo.css"
+#images = "img/Logo_Try_1-1.png" #["path_to_social_image_for_link_previews.jpg"]
+
+[[languages.en.params.menu.main]]
+url = '/en/'
+title = "Home"
+
+[[languages.en.params.menu.main]]
+url = '/#contact'
+title = "Contact"
+
+[[languages.en.params.menu.main]]
+url = '/'
+title = "Čeština"
+
+[[languages.cs.params.menu.main]]
+url = '/'
+title = "Domů"
+
+[[languages.cs.params.menu.main]]
+url = '/#contact'
+title = "Kontakt"
+
+[[languages.cs.params.menu.main]]
+url = '/en/'
+title = "English"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
+[languages.en.params.one]
+enable = true
+title = 'About Us'
+body = '''
+We specialize in turning your ideas into reality with our cutting-edge technology and skilled team. With our experience, we help you to accelerate your product development and achieve your vision.
+'''
+
+[languages.cs.params.one]
+enable = true
+title = 'O Nás'
+body = '''
+Specializujeme se na přeměnu Vašich nápadu v realitu. Našimi zkušenostmi Vám pomůžeme akcelerovat vývoj Vašeho produktu a dosáhnout Vaší vize.
+'''
+
+[[params.one.icon]]
+icon = "fa-cube"
+style = "1"
+label = "CNC"
+
+[[params.one.icon]]
+icon = "fa-laptop"
+style = "2"
+label = "Konstrukce"
+
+[[params.one.icon]]
+icon = "fa-code"
+style = "3"
+label = "Code"
+
+[languages.en.params.two]
+enable = true
+
+[[languages.en.params.two.section]]
+img = "img/3D Printing.jpg"
+title = '3D PRINTING'
+body_is_markdown = true
+body = 'FDM and SLA Technology. We print with PETG, ABS, PLA, Nylon and more!'
+
+[[languages.en.params.two.section]]
+img = "img/Konstrukcni Prace.jpg"
+title = 'MECHANICAL ENGINEERING'
+body = '2D and 3D CAD. Simulations. Rendering. Reserve Engineering.'
+
+[[languages.en.params.two.section]]
+img = "img/Obrabeni2.jpg"
+title = 'MACHINING'
+body = 'CNC Turning, Milling. Drilling. Laser Cutting.'
+
+[[languages.en.params.two.section]]
+img = "img/Grafika.jpg"
+title = 'GRAPHIC DESIGN'
+body = 'Product Design. Graphic Deisgn. Textile Printing, Promotional Items.'
+
+[languages.cs.params.two]
+enable = true
+
+[[languages.cs.params.two.section]]
+img = "img/3D Printing.jpg"
+title = '3D TISK'
+body_is_markdown = true
+body = 'Technologie FDM, SLA. <br /> Tisk materiálů PET, ABS, PLA, Nylon, a další!'
+
+[[languages.cs.params.two.section]]
+img = "img/Konstrukcni Prace.jpg"
+title = 'KONSTRUKČNÍ PRÁCE'
+body = '2D a 3D CAD. Simulace. Rendering. Reserve Engineering.'
+
+[[languages.cs.params.two.section]]
+img = "img/Obrabeni2.jpg"
+title = 'OBRÁBĚNÍ'
+body = 'CNC Soustružení. Frézování. Vrtání. Řezání Laserem.'
+
+[[languages.cs.params.two.section]]
+img = "img/Grafika.jpg"
+title = 'GRAFIKA'
+body = 'Grafické práce. Potisk textilu, výroba reklamních předmětů.'
+
+[params.three]
+enable = false
+title = 'Tak tady fakt nevim co bude'
+body = '''
+Nejake chytre kecy.
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane-o"
+title = "Bla?"
+body = "Bla bla bla."
+
+[[params.three.feature]]
+icon = "fa-laptop"
+title = "Blah blah"
+body = "Bla bla bla."
+
+[[params.three.feature]]
+icon = "fa-code"
+title = "Bleh"
+body = "Bla bla bla."
+
+[[params.three.feature]]
+icon = "fa-headphones"
+title = "Bla bla bla?"
+body = "Bla bla blaBla bla blaBla bla blaBla bla bla."
+
+[[params.three.feature]]
+icon = "fa-heart-o"
+title = "BLaaaaaaaaa"
+body = "Bla bla bla."
+
+[[params.three.feature]]
+icon = "fa-flag-o"
+title = "Nothing important"
+body = "Bla bla bla."
+
+[params.cta]
+enable = false
+title = "Bla"
+body = "Bla bla bla."
+
+[[params.cta.link]]
+href = "#"
+text = "Activate"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[languages.en.params.contact]
+enable = true
+title = "CONTACT AND QUESTIONS"
+body = "Please contact us with any questions or request for quotation."
+phone = "+420 605 422 161"
+#address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "info@tychoindustries.cz"
+subject = "Nová Poptávka!"
+formspree_form_id = "mlekzgqk"
+
+[languages.cs.params.contact]
+enable = false
+languageName = "Czech"
+title = "KONTAKT A DOTAZY"
+body = "Prosím kontaktujte nás s případnými dotazy nebo Vašimi poptávkami."
+phone = "+420 605 422 161"
+#address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "info@tychoindustries.cz"
+subject = "Nová Poptávka!"
+formspree_form_id = "mlekzgqk"
+
+[params.social]
+twitter = ""
+facebook = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 10
+languageName = "English"
+description = 'Transforming Your ideas into Reality'
+startbuttonText = "Contact Us"
+
+
+[languages.cs]
+weight = 0
+languageName = "Czech"
+description = 'Přeměníme Vaše nápady v Realitu'
+startbuttonText = "KONTAKTUJTE NÁS"
