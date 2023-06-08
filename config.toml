@@ -216,4 +216,4 @@ description = 'Přeměníme Vaše nápady v Realitu'
 startbuttonText = "KONTAKTUJTE NÁS"
 
 [sitemap]
-filename: sitemap.xml
+filename = 'sitemap.xml'
