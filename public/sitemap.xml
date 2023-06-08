@@ -1,4 +1,4 @@
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <sitemap>
     <loc>/cs/sitemap.xml</loc>
@@ -7,4 +7,23 @@
   <sitemap>
     <loc>/en/sitemap.xml</loc>
   </sitemap>
-</sitemapindex>
+</sitemapindex> --> 
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs"
+                href="/"
+                />
+  </url>
+</urlset>
