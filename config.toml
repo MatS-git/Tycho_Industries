@@ -214,3 +214,6 @@ weight = 0
 languageName = "Czech"
 description = 'Přeměníme Vaše nápady v Realitu'
 startbuttonText = "KONTAKTUJTE NÁS"
+
+[sitemap]
+filename: sitemap.xml
