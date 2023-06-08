@@ -2,43 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/categories/"
-                />
-  </url><url>
-    <loc>/series/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/series/"
-                />
-  </url><url>
-    <loc>/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs"
-                href="/tags/"
-                />
-  </url><url>
-    <loc>/</loc>
+    <loc>/tychoindustries.cz/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
