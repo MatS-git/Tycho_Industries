@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tychoindustries.cz/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tychoindustries.cz/en/" />
-   </url>
-   <url>
-   <loc>https://tychoindustries.cz/en/</loc>             
+    <loc>https://tychoindustries.cz/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
                 href="https://tychoindustries.cz/" />
+   </url>
+   <url>
+   <loc>https://tychoindustries.cz/</loc>             
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tychoindustries.cz/en/" />
   </url>
 </urlset>
