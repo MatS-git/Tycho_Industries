@@ -94,7 +94,7 @@ body = 'CNC Turning. Milling. Drilling. Laser Cutting.'
 [[languages.en.params.two.section]]
 img = "img/Grafika.jpg"
 title = 'GRAPHIC DESIGN'
-body = 'Product Design. Graphic Deisgn. Textile Printing. Promotional Items.'
+body = 'Complete graphic design for your product.'
 
 [languages.cs.params.two]
 enable = true
@@ -118,7 +118,7 @@ body = 'CNC Soustružení. Frézování. Vrtání. Řezání Laserem.'
 [[languages.cs.params.two.section]]
 img = "img/Grafika.jpg"
 title = 'GRAFIKA'
-body = 'Grafické práce. Potisk textilu. Výroba reklamních předmětů.'
+body = 'Kompletní návrh grafiky k Vašemu produktu.'
 
 [params.three]
 enable = false
@@ -187,7 +187,7 @@ formspree_form_id = "mlekzgqk"
 enable = true
 languageName = "Czech"
 title = "KONTAKT A DOTAZY"
-body = "Prosím kontaktujte nás s případnými dotazy nebo Vašimi poptávkami."
+body = "Případné dotazy zasílejte pomocí formuláře níže."
 phone = "+420 605 422 161"
 #address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
 email = "info@tychoindustries.cz"
