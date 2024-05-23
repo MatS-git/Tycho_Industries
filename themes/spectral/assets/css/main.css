@@ -3578,7 +3578,7 @@ input, select, textarea {
 								height: 3.75em;
 								vertical-align: top;
 								width: 2em;
-               							filter: invert(1);
+               							filter: invert(0);
                 						opacity: 1;
                 						background-color: transparent;
                 						color: initial;
@@ -3737,7 +3737,7 @@ input, select, textarea {
 				margin: 0 0 0 -0.75em;
 				position: absolute;
 				width: 1.5em;
-        			filter: invert(1);
+        			filter: invert(0);
         			opacity: 1;
         			background-color: transparent;
         			color: initial;
