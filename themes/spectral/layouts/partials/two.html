@@ -2,10 +2,11 @@
 
 {{ with .Site.Params.two }}
 {{ if .enable }}
-<section id="two" class="wrapper alt style2">
+<section id="two" class="wrapper alt style2" style="background-image: url('{{ .backgroundImage | absURL }}'); background-size: cover; background-position: center;" >
   {{ range .section }}
 	<section class="spotlight">
-    <div class="image"><img src="{{ .img | relURL }}" alt="" /></div><div class="content">
+    <div class="image">
+      <img height="512" width="512" src="{{ .img | relURL }}" alt="" /></div><div class="content">
       <h2>{{ .title | safeHTML }}</h2>
       {{ partial "body_text.html" (dict "context" . "md" $md) }}
 		</div>
