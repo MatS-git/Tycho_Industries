@@ -1,4 +1,4 @@
-baseURL = "https://tychoindustries.cz/"
+baseURL = "tychoindustries.cz/"
 title = "TYCHO INDUSTRIES"
 languageCode = "cs"
 defaultContentLanguage = "cs"
@@ -6,13 +6,15 @@ paginate = "7"
 theme = "spectral"
 
 [params]
-fancyTitle = "TYCHO INDUSTRIES" # title for frontpage, may include image
+#fancyTitle = "TYCHO INDUSTRIES" # title for frontpage, may include image
+fancyTitle = '<img height="200" src="/img/TI LOGO NO BG.png" alt="Logo"/>'#'<br />.'
 copyright = "TYCHO INDUSTRIES s.r.o."
-startbuttonText = "KONTAKTUJTE NÁS"
+#startbuttonText = "KONTAKTUJTE NÁS"
 startbuttonLink = "#contact"
 body_is_markdown = true
 #custom_css = "foo.css"
 #images = "img/Logo_Try_1-1.png" #["path_to_social_image_for_link_previews.jpg"]
+bannerImage = "img/BG.png"
 
 [[languages.en.params.menu.main]]
 url = '/en/'
@@ -43,18 +45,21 @@ tag = "tags"
 category = "categories"
 series = "series"
 
+
 [languages.en.params.one]
 enable = true
+#backgroundImage = "img/BG.png"
 title = 'About Us'
 body = '''
-We specialize in turning your ideas into reality with our cutting-edge technology and skilled team. With our experience, we help you to accelerate your product development and achieve your vision.
+We are an industrial design workshop that can help you with the complete design and realization of your projects.
 '''
 
 [languages.cs.params.one]
 enable = true
+#backgroundImage = "img/BG.png"
 title = 'O Nás'
 body = '''
-Specializujeme se na přeměnu Vašich nápadu v realitu. Naše zkušenosti pomohou akcelerovat vývoj Vašeho produktu a dosáhnout Vaší vize.
+Jsme industriální designová dílna, která vám pomůže s kompletním návrhem a realizací vašich projektů.
 '''
 
 [[params.one.icon]]
@@ -74,51 +79,83 @@ label = "Code"
 
 [languages.en.params.two]
 enable = true
-
-[[languages.en.params.two.section]]
-img = "img/3D Printing.jpg"
-title = '3D PRINTING'
 body_is_markdown = true
-body = 'FDM and SLA Technology. We print with PETG, ABS, PLA, Nylon and more!'
+#backgroundImage = "img/BG.png"
 
 [[languages.en.params.two.section]]
-img = "img/Konstrukcni Prace.jpg"
-title = 'MECHANICAL ENGINEERING'
-body = '2D and 3D CAD. Simulations. Rendering. Reserve Engineering.'
+img = "img/3d design.png"
+title = 'INDUSTRIAL DESIGN'
+body = "- 3D product design \n- 2D drawing documentation \n- Simulations \n- Rendering and product visualization  \n- Reserve engineering"
 
 [[languages.en.params.two.section]]
-img = "img/Obrabeni2.jpg"
-title = 'MACHINING'
-body = 'CNC Turning. Milling. Drilling. Laser Cutting.'
+img = "img/img/3d tiskárna.png"
+title = '3D PRINTING'
+body = "- 3D printing of prototypes \n- 3D printing of small serie products \n- FDM, SLA, MSLA technologies \n- Printing of termoplastic and photopolymer materials"
 
 [[languages.en.params.two.section]]
-img = "img/Grafika.jpg"
-title = 'GRAPHIC DESIGN'
-body = 'Complete graphic design for your product.'
+img = "img/cnc.png"
+title = 'CNC MACHINING'
+body = "- Turning \n- Milling"
+
+[[languages.en.params.two.section]]
+img = "img/ohýbání.png"
+title = 'CNC BENDING'
+body = "- Sheet metal bending (flexure) up to 15 mm thickness "
+
+[[languages.en.params.two.section]]
+img = "img/cnc laser.png"
+title = 'CNC LASER'
+body = "- Sheet laser cutting up to 25 mm thickness \n- Laser engraving"
+
+[[languages.en.params.two.section]]
+img = "img/cnc plazma.png"
+title = 'CNC PLASMA'
+body = "- Sheet plasma cutting"
+
+[[languages.en.params.two.section]]
+img = "img/povrchové úpravy.png"
+title = 'SURFACE TREATMENT'
+body = "- Powder coating \n- Zinc plating \n- Nickel electroplating \n- Phosphate coating \n- Chrome plating \n- Black oxide coating"
 
 [languages.cs.params.two]
 enable = true
-
-[[languages.cs.params.two.section]]
-img = "img/3D Printing.jpg"
-title = '3D TISK'
 body_is_markdown = true
-body = 'Technologie FDM, SLA. Tisk materiálů PET, ABS, PLA, Nylon a další!'
+#backgroundImage = "img/BG.png"
 
 [[languages.cs.params.two.section]]
-img = "img/Konstrukcni Prace.jpg"
-title = 'KONSTRUKČNÍ PRÁCE'
-body = '2D a 3D CAD. Simulace. Rendering. Reserve Engineering.'
+img = "img/3d design.png"
+title = 'INDUSTRIÁLNÍ DESIGN'
+body = "- 3D návrh produktu \n- 2D výkresová dokumentace \n- Simulace \n- Rendering a vizualice produktu \n- Reserve engineering"
 
 [[languages.cs.params.two.section]]
-img = "img/Obrabeni2.jpg"
-title = 'OBRÁBĚNÍ'
-body = 'CNC Soustružení. Frézování. Vrtání. Řezání Laserem.'
+img = "img/3d tiskárna.png"
+title = '3D TISK'
+body = "- 3D tisk prototypů \n- 3D tisk malých sérií \n- Technologie FDM, SLA, MSLA \n- Tisk termoplastů a světlocitlivých fotopolymerů"
 
 [[languages.cs.params.two.section]]
-img = "img/Grafika.jpg"
-title = 'GRAFIKA'
-body = 'Kompletní návrh grafiky k Vašemu produktu.'
+img = "img/cnc.png"
+title = 'CNC OBRÁBĚNÍ'
+body = "- Soustružení \n- Frézování"
+
+[[languages.cs.params.two.section]]
+img = "img/ohýbání.png"
+title = 'CNC OHÝBÁNÍ'
+body = "- Ohýbání (ohraňování) do tl = 15 mm"
+
+[[languages.cs.params.two.section]]
+img = "img/cnc laser.png"
+title = 'CNC LASER'
+body = "- Laserové řezání plechů do tl = 25 mm \n- Laserové gravírování"
+
+[[languages.cs.params.two.section]]
+img = "img/cnc plazma.png"
+title = 'CNC PLAZMA'
+body = "- Plazmové řezání plechů"
+
+[[languages.cs.params.two.section]]
+img = "img/povrchové úpravy.png"
+title = 'POVRCHOVÉ ÚPRAVY'
+body = "- Prášková lakovna \n- Zinkování \n- Niklování \n- Fosfátování \n- Chromování \n- Černění"
 
 [params.three]
 enable = false
@@ -174,9 +211,8 @@ special = false
 
 [languages.en.params.contact]
 enable = true
-languageName = "English"
-title = "CONTACT AND QUESTIONS"
-body = "Please contact us with any questions or request for quotation."
+title = "CONTACT US"
+body = "Let's make something awesome together. Get in touch!"
 phone = "+420 605 422 161"
 #address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
 email = "info@tychoindustries.cz"
@@ -185,9 +221,9 @@ formspree_form_id = "mlekzgqk"
 
 [languages.cs.params.contact]
 enable = true
-languageName = "Czech"
-title = "KONTAKT A DOTAZY"
-body = "Případné dotazy zasílejte pomocí formuláře níže."
+#languageName = "Czech"
+title = "KONTAKTUJTE NÁS"
+body = "Pracujete na zajímavém projektu? Ozvětě se nám!"
 phone = "+420 605 422 161"
 #address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
 email = "info@tychoindustries.cz"
@@ -203,16 +239,17 @@ dribble = ""
 # language specific options
 
 [languages.en]
-weight = 10
+weight = 0
 languageName = "English"
-description = 'Transforming Your ideas into Reality'
+languageCode = 'en-US'
+description = 'Transforming ideas into reality'
 startbuttonText = "Contact Us"
 
 
-[languages.cs]
-weight = 0
-languageName = "Czech"
-description = 'Přeměníme Vaše nápady v Realitu'
-startbuttonText = "KONTAKTUJTE NÁS"
 
-disableKinds = ['sitemap']
+[languages.cs]
+weight = 10
+languageName = "Czech"
+languageCode = 'cs-CZ'
+description = 'Měníme nápady v realitu'
+startbuttonText = "KONTAKTUJTE NÁS"
