@@ -13,33 +13,6 @@
     </header>
 
     {{ if .enable }}
-    {{ if eq .languageName "Czech" }}
-
-   <form method="post" action="https://formspree.io/f/{{ .formspree_form_id }}">
-      <div class="row gtr-uniform">
-        <input type="hidden" name="subject" value="{{ .subject }}" />
-        <div class="col-6 col-12-xsmall">
-          <input type="text" name="name" id="name" value="" placeholder="Vaše jméno" required />
-        </div>
-        <div class="col-6 col-12-xsmall">
-          <input type="email" name="email" id="email" value="" placeholder="Email" required />
-        </div>
-        <div class="col-12">
-          <textarea name="message" id="message" placeholder="Vaše zpráva" rows="6" required></textarea>
-        </div>
-        <div class="col-12">
-          <ul class="actions">
-            <li><input type="submit" value="odeslat" class="primary" /></li>
-            <li><input type="reset" value="reset" /></li>
-          </ul>
-        </div>
-      </div>
-    </form>
-    {{ end }}
-    {{ end }}
-
-    {{ if .enable }}
-    {{ if eq .languageName "English" }}
 
    <form method="post" action="https://formspree.io/f/{{ .formspree_form_id }}">
       <div class="row gtr-uniform">
@@ -62,8 +35,7 @@
       </div>
     </form>
     {{ end }}
-    {{ end }}
-
   </div>
 </section>
-      {{ end }}
+
+{{ end }}
