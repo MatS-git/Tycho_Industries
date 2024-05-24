@@ -85,7 +85,7 @@ body_is_markdown = true
 [[languages.en.params.two.section]]
 img = "img/3d design.png"
 title = 'INDUSTRIAL DESIGN'
-body = "- 3D product design \n- 2D drawing documentation \n- Simulations \n- Rendering and product visualization  \n- Reserve engineering"
+body = "- 3D product design \n- 2D drawing documentation \n- Simulations \n- Rendering and product visualization  \n- Reverse engineering"
 
 [[languages.en.params.two.section]]
 img = "img/img/3d tiskárna.png"
@@ -125,7 +125,7 @@ body_is_markdown = true
 [[languages.cs.params.two.section]]
 img = "img/3d design.png"
 title = 'INDUSTRIÁLNÍ DESIGN'
-body = "- 3D návrh produktu \n- 2D výkresová dokumentace \n- Simulace \n- Rendering a vizualice produktu \n- Reserve engineering"
+body = "- 3D návrh produktu \n- 2D výkresová dokumentace \n- Simulace \n- Rendering a vizualice produktu \n- Reverse engineering"
 
 [[languages.cs.params.two.section]]
 img = "img/3d tiskárna.png"
