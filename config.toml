@@ -14,7 +14,7 @@ startbuttonLink = "#contact"
 body_is_markdown = true
 #custom_css = "foo.css"
 #images = "img/Logo_Try_1-1.png" #["path_to_social_image_for_link_previews.jpg"]
-bannerImage = "img/BG.png"
+bannerImage = "themes/spectral/static/img/BG.png"
 
 [[languages.en.params.menu.main]]
 url = '/en/'
